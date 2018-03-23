@@ -1,0 +1,17 @@
+    1  apt-get update
+    2  apt-get update
+    3  apt-get install tig
+    4  ipa
+    5  ip a
+    6  ip a
+    7  ip a
+    8  git clone https://github.com/DonMiguelin/so-exam1.git
+    9  apt-get install openssh-server
+   10  ip a
+   11  whoami
+   12  whoami
+   13  cd Documentos/
+   14  ls
+   15  ls
+   16  ls
+   17  history > comandos-List.txt
