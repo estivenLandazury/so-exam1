@@ -15,3 +15,28 @@
    15  ls
    16  ls
    17  history > comandos-List.txt
+   18  cat comandos-List.txt
+   19  cd so-exam1
+   20  git clone https://github.com/DonMiguelin/so-exam1.git
+   21  ls
+   22  cd so-exam1/
+   23  git branch -a
+   24  git checkout miguel_isaza/so-exam1
+   25  git checkout miguel_isaza
+   26  cd ..
+   27  mv comandos-List.txt so-exam1/A00054628/
+   28  cd so-exam1/
+   29  git add --all
+   30  git commit -m "Add comandos"
+   31  git commit -m global user.email "miguel11andres@gmail.com"
+   32  git config -- global user.email "miguel11andres@gmail.com"
+   33  git config --global user.email "miguel11andres@gmail.com"
+   34  git commit -m "Add comands"
+   35  tig
+   36  uname -a
+   37  uname -o
+   38  uname -m
+   39  history
+   40  ip a
+   41  ls
+   42  history > comandos-List.txt
