@@ -60,15 +60,19 @@ Para importar la máquina virtual, nos vamos a la barra de tareas de virtual box
      PostgreSQL -> 8.4.13                                                                                 PostgreSQL -> 9.1.9  
      3- Ciclo de vida: 10 años, 5½ años actualizaciones, 1 año mantenimiento                       Ciclo de vida: 	Sin ciclos fijos  
         3½ años parches críticos                                                                   1 año tras siguiente versión estable  
+        
      4- Requerimientos minimos: 
         Intel pentium 1-4 celeron, AMD 32,256,500MB y 4GB                                          Memoria Ram de 64MB, espacio minimo                                                                                                      en disco duro de 1GB.  
+        
      5- Arquitecturas:
         PowerPC, x86 (64 y 32 bits), ARM, SPARC                                                               x86_64
-        MIPS, 5390.
+        MIPS, 5390.  
+        
      6- Facilidad de configuración:
           Sin costo, sencillo                                                                   Tiene configuración por defecto
           multiusuario, kernel.                                                                 Tiene programas incluidos, incluye
-                                                                                                navegadores web y utilidades de oficina.
+                                                                                                navegadores web y utilidades de oficina.  
+                                                                                                
      7- Peso de la versión más sencilla:
                  300 MB                                                                                         500MB
                  
