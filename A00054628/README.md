@@ -34,9 +34,21 @@ Una vez hecho esto se puede dar paso a la conexión sin problemas:
 Primero nos cambiamos al usuario root, despúes ejecutamos los siguientes comandos para la instalación del tig:  
 ![](Imagenes/Instalación%20tig.png)  
 
+Historial de los commits realizados:  
+![](Imagenes/tigs%20commits.png)  
+
 Para la instalación del git, en mi caso ocurrió que cuando ejecuté el comando ```apt-get install git``` me decía que no había nada para instalar:  
 ![](Imagenes/Instalación%20git.png)  
 
+### 7 Exportación e importación de la máquina virtual  
+
+Para exportar la máquina virtual, en virtual box, en la barra de tareas damos click en archivo y seleccionamos la opción que dice exportar servicio virtualizado, luego seleccionamos la máquina virtual (debian9 en mi caso) y damos continuar, luego aparecerá lo siguiente:  
+![](Imagenes/Exportar%20Máquina.png)  
+damos click en Next y luego en Exportar, ya sólo queda esperar:  
+![](Imagenes/Exportación%20Máquina.png)  
+
+**Importar la máquina virtual:**  
+Para importar la máquina virtual, nos vamos a la barra de tareas de virtual box, damos click en importar servicio virtualizado  
 
 ### 8 centos7 vs debian9
                  DEBIAN 9                                                                                 CENTOS 7  
