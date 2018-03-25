@@ -34,7 +34,7 @@ Una vez hecho esto se puede dar paso a la conexión sin problemas:
 Primero nos cambiamos al usuario root, despúes ejecutamos los siguientes comandos para la instalación del tig:  
 ![](Imagenes/Instalación%20tig.png)  
 
-Historial de los commits realizados:  
+Historial de los commits realizados (comando usado ```~tig```):  
 ![](Imagenes/tig%20commits.png)  
 
 Para la instalación del git, en mi caso ocurrió que cuando ejecuté el comando ```apt-get install git``` me decía que no había nada para instalar:  
