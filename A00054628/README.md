@@ -52,12 +52,15 @@ Para importar la máquina virtual, nos vamos a la barra de tareas de virtual box
 
 ### 8 centos7 vs debian9
                  DEBIAN 9                                                                                     CENTOS 7  
-     1- Distribución libre, no está basada en ninguna otra destribución.                          Distribución de GNU/Linux derivado.
+                 
+     1- Distribución libre, no está basada en ninguna otra destribución.                          Distribución de GNU/Linux derivado.  
+     
      2- Versiones de las principales aplicaciones: 
      Apache ->2.2.15                                                                                      Apache -> 2.2.22  
      PHP -> 5.3.3                                                                                         PHP -> 5.4.4  
      MySQL -> 5.1.66                                                                                      MySQL -> 5.5.30  
      PostgreSQL -> 8.4.13                                                                                 PostgreSQL -> 9.1.9  
+     
      3- Ciclo de vida: 10 años, 5½ años actualizaciones, 1 año mantenimiento                       Ciclo de vida: 	Sin ciclos fijos  
         3½ años parches críticos                                                                   1 año tras siguiente versión estable  
         
