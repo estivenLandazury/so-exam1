@@ -66,7 +66,7 @@ Para importar la máquina virtual, nos vamos a la barra de tareas de virtual box
         
      4- Requerimientos minimos: 
         Intel pentium 1-4 celeron, AMD 32,256,500MB y 4GB                                          Memoria Ram de 64MB, espacio minimo                                                                                                      en disco duro de 1GB.  
-        
+
      5- Arquitecturas:
         PowerPC, x86 (64 y 32 bits), ARM, SPARC                                                               x86_64
         MIPS, 5390.  
