@@ -1,6 +1,6 @@
 ### EXAMEN 1  
 **Nombre:** Miguel Andrés Isaza Barona  
-**Código:** A00054628
+**Código:** A00054628  
 **Materia:** Sistemas operacionales  
 **Correo institucional:** miguel.isaza1@correo.icesi.edu.co  
 
