@@ -12,12 +12,12 @@ http://download.cnet.com/MD5-SHA-Checksum-Utility/3001-2092_4-10911445.html, efe
                                               ![](Imagenes/ChecksumVerificacion.png)
 
 ### 4 Instalación  
-Primero abrimos virtualbox, luego de esto damos nueva para cear una nueva máquina, le damos un nombre (en mi caso es Debian9),
-seleccionamos el tipo (Linux) y la versión de la máquina virtual (Debian 64 bits).
-Luego se configuran los recursos necesarios para la máquina (memoria RAM y disco duro).
-Luego nos vamos a configuración, en almacenamiento montamos la imagen, y en la parte de red habilitamos 2 adaptadores (el nat
+-Primero abrimos virtualbox, luego de esto damos nueva para cear una nueva máquina, le damos un nombre (en mi caso es Debian9),
+seleccionamos el tipo (Linux) y la versión de la máquina virtual (Debian 64 bits).  
+-Luego se configuran los recursos necesarios para la máquina (memoria RAM y disco duro).  
+-Luego nos vamos a configuración, en almacenamiento montamos la imagen, y en la parte de red habilitamos 2 adaptadores (el nat
 y el adaptador puente).  
-Luego le damos iniciar, una vez hecho esto la máquina se reiniciará y ejecutará la imagen de debian9, despúes se mostrará una ventana donde nos muestra la opción de instalar el sistema operativo, seleccionamos la opción que dice graphical install, seleccionamos el idioma, el idioma del teclado, luego creamos un superusuario, le damos un nombre de usuario y una contraseña, a partír de ahí se da continuar para la instalación.  
+-Luego le damos iniciar, una vez hecho esto la máquina se reiniciará y ejecutará la imagen de debian9, despúes se mostrará una ventana donde nos muestra la opción de instalar el sistema operativo, seleccionamos la opción que dice graphical install, seleccionamos el idioma, el idioma del teclado, luego creamos un superusuario, le damos un nombre de usuario y una contraseña, a partír de ahí se da continuar para la instalación.  
 
 **Información del SO:**  
                                    ![](Imagenes/Información_Máquina.png)  
@@ -31,8 +31,11 @@ Una vez hecho esto se puede dar paso a la conexión sin problemas:
 ![](Imagenes/Putty.png)  
 
 ### 6 Instalación git y tig:
-primero nos cambiamos al usuario root, despúes ejecutamos el comando apot-get install tig:  
+Primero nos cambiamos al usuario root, despúes ejecutamos los siguientes comandos para la instalación del tig:  
 ![](Imagenes/Instalación%20tig.png)  
+
+Para la instalación del git, en mi caso ocurrió que cuando ejecuté el comando ```apt-get install git``` me decía que no había nada para instalar:  
+![](Imagenes/Instalación%20git.png)  
 
 
 ### 8 centos7 vs debian9
