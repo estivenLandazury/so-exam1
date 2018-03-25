@@ -16,18 +16,18 @@ Luego lo iniciamos, le damos graphical install, seleccionamos el idioma, el idio
 y una contraseña, a partír de ahí se da continuar para la instalación.  
 
 ### 8 centos7 vs debian9
-                     DEBIAN 9                                                                                CENTOS 7  
-    1- Distribución libre, no está basada en ninguna otra destribución.                          Distribución de GNU/Linux derivado.
-    2- Versiones de las principales aplicaciones:                                         Versiones de las principales aplicaciones:  
-     Apache ->2.2.15                                                                                     Apache -> 2.2.22  
-     PHP -> 5.3.3                                                                                        PHP -> 5.4.4  
-     MySQL -> 5.1.66                                                                                     MySQL -> 5.5.30  
-     PostgreSQL -> 8.4.13                                                                                PostgreSQL -> 9.1.9  
-     3- Ciclo de vida: 10 años, 5½ años actualizaciones, 1 año mantenimiento                       Ciclo de vida: 	Sin ciclos fijos  
-     3½ años parches críticos                                                                 1 año tras siguiente versión estable  
-     4- Requerimientos minimos: Intel pentium 1-4 celeron, AMD 32,256,500MB y 4GB           Memoria Ram de 64MB, espacio minimo en disco                                                                                               duro de 1GB.  
-     5- Arquitecturas: PowerPC, x86 (64 y 32 bits), ARM, SPARC                               x86_64
+DEBIAN 9                                                 |                               CENTOS 7  
+1- Distribución libre, no está basada en ninguna otra destribución.       |                  Distribución de GNU/Linux derivado.
+2- Versiones de las principales aplicaciones:                             |          Versiones de las principales aplicaciones:  
+Apache ->2.2.15                                                          |                           Apache -> 2.2.22  
+PHP -> 5.3.3                                                             |                           PHP -> 5.4.4  
+MySQL -> 5.1.66                                                          |                           MySQL -> 5.5.30  
+     PostgreSQL -> 8.4.13                                                     |                           PostgreSQL -> 9.1.9  
+     3- Ciclo de vida: 10 años, 5½ años actualizaciones, 1 año mantenimiento  |                     Ciclo de vida: 	Sin ciclos fijos  
+     3½ años parches críticos                                                 |                1 año tras siguiente versión estable  
+     4- Requerimientos minimos: Intel pentium 1-4 celeron, AMD 32,256,500MB y 4GB|           Memoria Ram de 64MB, espacio minimo en disco                                                                               |                duro de 1GB.  
+     5- Arquitecturas: PowerPC, x86 (64 y 32 bits), ARM, SPARC                |               x86_64
         MIPS, 5390.
-     6- Facilidad de configuración: Sin costo, sencillo                                        Tiene configuración por defecto
+     6- Facilidad de configuración: Sin costo, sencillo                       |                 Tiene configuración por defecto
           multiusuario, kernel.                                                                Tiene programas incluidos, incluye
                                                                                                 navegadores web y utilidades de oficina.
