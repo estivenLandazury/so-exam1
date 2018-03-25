@@ -19,8 +19,8 @@ Luego nos vamos a configuración, en almacenamiento montamos la imagen, y en la 
 y el adaptador puente).  
 Luego lo iniciamos, le damos graphical install, seleccionamos el idioma, el idioma del teclado, luego creamos un superusuario, le damos un nombre de usuario y una contraseña, a partír de ahí se da continuar para la instalación.  
 
-**Información del SO:**
-                                   ![](Imagenes/Información Máquina.png)  
+**Información del SO:**  
+                                   ![](Imagenes/Información%20Máquina.png)  
 
 ### 5 
 
