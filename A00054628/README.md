@@ -3,6 +3,7 @@
 **Código:** A00054628  
 **Materia:** Sistemas operacionales  
 **Correo personal:** miguel11andres@hotmail.com  
+**URL repositorio:** https://github.com/ICESI-Training/so-exam1.git  
 
 ### 3 Validación de la imagen  
 -Primero descargamos la imagen debian 9 de https://www.debian.org/distrib/netinst#smallcd seleccionamos amd64.  
