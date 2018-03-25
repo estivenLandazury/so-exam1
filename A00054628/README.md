@@ -2,7 +2,7 @@
 **Nombre:** Miguel Andrés Isaza Barona  
 **Código:** A00054628  
 **Materia:** Sistemas operacionales  
-**Correo institucional:** miguel.isaza1@correo.icesi.edu.co  
+**Correo personal:** miguel11andres@hotmail.com  
 
 ### 3 Validación de la imagen  
 Primero descargamos la imagen debian 9 de https://www.debian.org/distrib/netinst#smallcd seleccionamos amd64, luego de
@@ -24,7 +24,13 @@ Luego lo iniciamos, le damos graphical install, seleccionamos el idioma, el idio
 
 ### 5 Configuración putty
 Para poder conectarse con la máquina por medio de putty, primero la máquina virtual debe tener conexión a internet, luego de esto abrimos putty, le damos la ip de la máquina, seleccionamos ssh y finalmente damos aceptar e iniciamos la conexión:  
-![](Imagenes/Configuración%20putty.png)
+![](Imagenes/Configuración%20putty.png)  
+![](Imagenes/Putty.png)  
+
+### 6 Instalación git y tig:
+primero nos cambiamos al usuario root, despúes ejecutamos el comando apot-get install tig:  
+![](Imagenes/Instalación%20tig.png)  
+
 
 ### 8 centos7 vs debian9
                  DEBIAN 9                                                                                 CENTOS 7  
