@@ -17,9 +17,11 @@ seleccionamos el tipo (Linux) y la versión de la máquina virtual (Debian 64 bi
 -Luego se configuran los recursos necesarios para la máquina (memoria base: 2048MB, Disco duro: 8GB).  
 -Luego nos vamos a configuración, en almacenamiento montamos la imagen, y en la parte de red habilitamos 2 adaptadores (el nat
 y el adaptador puente).  
--Luego le damos iniciar, una vez hecho esto la máquina se reiniciará y ejecutará la imagen de debian9, despúes se mostrará una ventana donde nos muestra la opción de instalar el sistema operativo, seleccionamos la opción que dice graphical install, seleccionamos el idioma, el idioma del teclado, luego creamos un superusuario, le damos un nombre de usuario y una contraseña, a partír de ahí se da continuar para la instalación, una vez finalice se reiniciará la máquina virtual y el sistema operativo debian estará listo para usarse.  
+-Luego le damos iniciar, una vez hecho esto la máquina se reiniciará y ejecutará la imagen de debian9, despúes se mostrará una ventana donde nos muestra la opción de instalar el sistema operativo, seleccionamos la opción que dice graphical install, seleccionamos el idioma, el idioma del teclado, luego creamos un superusuario, le damos un nombre de usuario y una contraseña, a partír de ahí se da continuar para la instalación, en medio de la instalación salió una opción que decía si se quería hacer el particionado, se debía seleccionar automatico y dar click en continuar.  
+-Luego salió otra opción que decía: ¿desea inicializar con otro cd? En este caso se dio click en no, y una última opción que salío fue lo del gestor de paquetes y seleccionamos colombia-debian.uniminuto.edu.   
+-Una vez finalice se reiniciará la máquina virtual y el sistema operativo debian estará listo para usarse.  
 
-**Información del SO:**  
+**Información del SO Debian 9:**  
                                    ![](Imagenes/Información_Máquina.png)  
 
 ### 5 Configuración putty
