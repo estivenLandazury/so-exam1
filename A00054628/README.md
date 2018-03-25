@@ -48,7 +48,7 @@ damos click en Next y luego en Exportar, ya sólo queda esperar:  
 ![](Imagenes/Exportación%20Máquina.png)  
 
 **Importar la máquina virtual:**  
-Para importar la máquina virtual, nos vamos a la barra de tareas de virtual box, damos click en importar servicio virtualizado  
+Para importar la máquina virtual, nos vamos a la barra de tareas de virtual box, damos click en importar servicio virtualizado.  
 
 ### 8 centos7 vs debian9
                  DEBIAN 9                                                                                 CENTOS 7  
