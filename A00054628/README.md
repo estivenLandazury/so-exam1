@@ -7,7 +7,7 @@
 ### 3 Validación de la imagen  
 Primero descargamos la imagen debian 9 de https://www.debian.org/distrib/netinst#smallcd seleccionamos amd64, luego de
 http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/MD5SUMS consultamos el valor del checksum de la imagen, descargamos un software 
-que nos permite comprobar que el checksum de la imagen fuera igual al consultado, esta herramienta se descargó de
+que nos permite comprobar que el checksum de la imagen sea igual al consultado, esta herramienta se descargó de
 http://download.cnet.com/MD5-SHA-Checksum-Utility/3001-2092_4-10911445.html, efectivamente se pudo comprobrar que los checksum son iguales, esto se muestra en la siguiente imagen:
                                               ![](Imagenes/ChecksumVerificacion.png)
 
