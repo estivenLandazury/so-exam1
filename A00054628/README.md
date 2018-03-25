@@ -19,6 +19,11 @@ Luego nos vamos a configuración, en almacenamiento montamos la imagen, y en la 
 y el adaptador puente).  
 Luego lo iniciamos, le damos graphical install, seleccionamos el idioma, el idioma del teclado, luego creamos un superusuario, le damos un nombre de usuario y una contraseña, a partír de ahí se da continuar para la instalación.  
 
+**Información del SO:**
+                                   ![](Imagenes/Información Máquina.png)  
+
+### 5 
+
 ### 8 centos7 vs debian9
                  DEBIAN 9                                                                                 CENTOS 7  
      1- Distribución libre, no está basada en ninguna otra destribución.                          Distribución de GNU/Linux derivado.
