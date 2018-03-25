@@ -35,7 +35,7 @@ Primero nos cambiamos al usuario root, despúes ejecutamos los siguientes comand
 ![](Imagenes/Instalación%20tig.png)  
 
 Historial de los commits realizados:  
-![](Imagenes/tigs%20commits.png)  
+![](Imagenes/tig%20commits.png)  
 
 Para la instalación del git, en mi caso ocurrió que cuando ejecuté el comando ```apt-get install git``` me decía que no había nada para instalar:  
 ![](Imagenes/Instalación%20git.png)  
