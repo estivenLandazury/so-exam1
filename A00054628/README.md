@@ -14,7 +14,7 @@
 ### 4 Instalación  
 -Primero abrimos virtualbox, luego de esto damos nueva para cear una nueva máquina, le damos un nombre (en mi caso es Debian9),
 seleccionamos el tipo (Linux) y la versión de la máquina virtual (Debian 64 bits).  
--Luego se configuran los recursos necesarios para la máquina (memoria RAM y disco duro).  
+-Luego se configuran los recursos necesarios para la máquina (memoria base: 2048MB, Disco duro: 8GB).  
 -Luego nos vamos a configuración, en almacenamiento montamos la imagen, y en la parte de red habilitamos 2 adaptadores (el nat
 y el adaptador puente).  
 -Luego le damos iniciar, una vez hecho esto la máquina se reiniciará y ejecutará la imagen de debian9, despúes se mostrará una ventana donde nos muestra la opción de instalar el sistema operativo, seleccionamos la opción que dice graphical install, seleccionamos el idioma, el idioma del teclado, luego creamos un superusuario, le damos un nombre de usuario y una contraseña, a partír de ahí se da continuar para la instalación, una vez finalice se reiniciará la máquina virtual y el sistema operativo debian estará listo para usarse.  
@@ -51,18 +51,38 @@ damos click en Next y luego en Exportar, ya sólo queda esperar:  
 Para importar la máquina virtual, nos vamos a la barra de tareas de virtual box, damos click en importar servicio virtualizado.  
 
 ### 8 centos7 vs debian9
-                 DEBIAN 9                                                                                 CENTOS 7  
+                 DEBIAN 9                                                                                     CENTOS 7  
      1- Distribución libre, no está basada en ninguna otra destribución.                          Distribución de GNU/Linux derivado.
-     2- Versiones de las principales aplicaciones:                                        Versiones de las principales aplicaciones:  
+     2- Versiones de las principales aplicaciones: 
      Apache ->2.2.15                                                                                      Apache -> 2.2.22  
      PHP -> 5.3.3                                                                                         PHP -> 5.4.4  
      MySQL -> 5.1.66                                                                                      MySQL -> 5.5.30  
      PostgreSQL -> 8.4.13                                                                                 PostgreSQL -> 9.1.9  
-     3- Ciclo de vida: 10 años, 5½ años actualizaciones, 1 año mantenimiento                        Ciclo de vida: 	Sin ciclos fijos  
-        3½ años parches críticos                                                                  1 año tras siguiente versión estable  
-     4- Requerimientos minimos: Intel pentium 1-4 celeron, AMD 32,256,500MB y 4GB           Memoria Ram de 64MB, espacio minimo en disco                                                                                               duro de 1GB.  
-     5- Arquitecturas: PowerPC, x86 (64 y 32 bits), ARM, SPARC                                                x86_64
+     3- Ciclo de vida: 10 años, 5½ años actualizaciones, 1 año mantenimiento                       Ciclo de vida: 	Sin ciclos fijos  
+        3½ años parches críticos                                                                   1 año tras siguiente versión estable  
+     4- Requerimientos minimos: 
+        Intel pentium 1-4 celeron, AMD 32,256,500MB y 4GB                                          Memoria Ram de 64MB, espacio minimo                                                                                                      en disco duro de 1GB.  
+     5- Arquitecturas:
+        PowerPC, x86 (64 y 32 bits), ARM, SPARC                                                               x86_64
         MIPS, 5390.
-     6- Facilidad de configuración: Sin costo, sencillo                                        Tiene configuración por defecto
-          multiusuario, kernel.                                                                Tiene programas incluidos, incluye
+     6- Facilidad de configuración:
+          Sin costo, sencillo                                                                   Tiene configuración por defecto
+          multiusuario, kernel.                                                                 Tiene programas incluidos, incluye
                                                                                                 navegadores web y utilidades de oficina.
+     7- Peso de la versión más sencilla:
+                 300 MB                                                                                         500MB
+                 
+     8- Es usada en:
+         Se dice que este sistema operativo es para                                               Es muy usado en las empresas
+         expertos en linux debido a su complejidad en                                             
+         la instalación.
+       
+     9-  Versión núcleo Kernel:
+             kernel: 4.9.0                                                                                   Kernel 3.10.0  
+             
+     10- Estabilidad:
+            Debido a que los desarrolladores detras de                                             CentOS es un clon de una de las
+            Debian, se empeñan en probar todo, antes de                                            distribuciones comerciales más
+            liberar una nueva versión, esta es junto con                                           estables (Redhat), por lo que no es   
+            CentOS una de las más estables distribuciones                                          muy propenso a errores.
+            de GNU/Linux disponibles actualmente.  
