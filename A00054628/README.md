@@ -17,13 +17,14 @@ seleccionamos el tipo (Linux) y la versión de la máquina virtual (Debian 64 bi
 Luego se configuran los recursos necesarios para la máquina (memoria RAM y disco duro).
 Luego nos vamos a configuración, en almacenamiento montamos la imagen, y en la parte de red habilitamos 2 adaptadores (el nat
 y el adaptador puente).  
-Luego lo iniciamos, le damos graphical install, seleccionamos el idioma, el idioma del teclado, luego creamos un superusuario, le damos un nombre de usuario y una contraseña, a partír de ahí se da continuar para la instalación.  
+Luego le damos iniciar, una vez hecho esto la máquina se reiniciará y ejecutará la imagen de debian9, despúes se mostrará una ventana donde nos muestra la opción de instalar el sistema operativo, seleccionamos la opción que dice graphical install, seleccionamos el idioma, el idioma del teclado, luego creamos un superusuario, le damos un nombre de usuario y una contraseña, a partír de ahí se da continuar para la instalación.  
 
 **Información del SO:**  
                                    ![](Imagenes/Información_Máquina.png)  
 
 ### 5 Configuración putty
-Para poder conectarse con la máquina por medio de putty, primero la máquina virtual debe tener conexión a internet, luego de esto abrimos putty, le damos la ip de la máquina, seleccionamos ssh y finalmente damos aceptar e iniciamos la conexión:  
+Para poder conectarse con la máquina por medio de putty, primero la máquina virtual debe tener conexión a internet (este paso se ha hecho previamente al momento de instalar la máquina virtual, en la configuración de la máquina virtual se ha habilitado un adaptador puente, en mi caso le dí la opción de que permitiera crear conexiónes de red de área local inalámbrica) luego de esto abrimos putty, le damos la ip de la máquina, seleccionamos ssh, en puerto ponemos el 22 y finalmente damos aceptar e iniciamos la conexión, si la conexión no se pudo hacer, se debe ejecutar el siquiente comando para corregir este error:
+:  
 ![](Imagenes/Configuración%20putty.png)  
 ![](Imagenes/Putty.png)  
 
