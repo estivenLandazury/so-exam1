@@ -5,10 +5,10 @@
 **Correo personal:** miguel11andres@hotmail.com  
 
 ### 3 Validación de la imagen  
-Primero descargamos la imagen debian 9 de https://www.debian.org/distrib/netinst#smallcd seleccionamos amd64, luego de
-http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/MD5SUMS consultamos el valor del checksum de la imagen, descargamos un software 
-que nos permite comprobar que el checksum de la imagen sea igual al consultado, esta herramienta se descargó de
-http://download.cnet.com/MD5-SHA-Checksum-Utility/3001-2092_4-10911445.html, efectivamente se pudo comprobrar que los checksum son iguales, esto se muestra en la siguiente imagen:
+-Primero descargamos la imagen debian 9 de https://www.debian.org/distrib/netinst#smallcd seleccionamos amd64.  
+-Luego de http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/MD5SUMS consultamos el valor del checksum del ISO de debian 9.  
+-Despúes descargamos un software que nos permite comprobar que el checksum del ISO sea igual al consultado en la url anterior, esta herramienta se descargó de http://download.cnet.com/MD5-SHA-Checksum-Utility/3001-2092_4-10911445.html.  
+-Efectivamente se pudo comprobrar que los checksum son iguales, esto se muestra en la siguiente imagen:
                                               ![](Imagenes/ChecksumVerificacion.png)
 
 ### 4 Instalación  
@@ -17,7 +17,7 @@ seleccionamos el tipo (Linux) y la versión de la máquina virtual (Debian 64 bi
 -Luego se configuran los recursos necesarios para la máquina (memoria RAM y disco duro).  
 -Luego nos vamos a configuración, en almacenamiento montamos la imagen, y en la parte de red habilitamos 2 adaptadores (el nat
 y el adaptador puente).  
--Luego le damos iniciar, una vez hecho esto la máquina se reiniciará y ejecutará la imagen de debian9, despúes se mostrará una ventana donde nos muestra la opción de instalar el sistema operativo, seleccionamos la opción que dice graphical install, seleccionamos el idioma, el idioma del teclado, luego creamos un superusuario, le damos un nombre de usuario y una contraseña, a partír de ahí se da continuar para la instalación.  
+-Luego le damos iniciar, una vez hecho esto la máquina se reiniciará y ejecutará la imagen de debian9, despúes se mostrará una ventana donde nos muestra la opción de instalar el sistema operativo, seleccionamos la opción que dice graphical install, seleccionamos el idioma, el idioma del teclado, luego creamos un superusuario, le damos un nombre de usuario y una contraseña, a partír de ahí se da continuar para la instalación, una vez finalice se reiniciará la máquina virtual y el sistema operativo debian estará listo para usarse.  
 
 **Información del SO:**  
                                    ![](Imagenes/Información_Máquina.png)  
