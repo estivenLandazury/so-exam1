@@ -22,7 +22,9 @@ Luego lo iniciamos, le damos graphical install, seleccionamos el idioma, el idio
 **Información del SO:**  
                                    ![](Imagenes/Información_Máquina.png)  
 
-### 5 
+### 5 Configuración putty
+Para poder conectarse con la máquina por medio de putty, primero la máquina virtual debe tener conexión a internet, luego de esto abrimos putty, le damos la ip de la máquina, seleccionamos ssh y finalmente damos aceptar e iniciamos la conexión:  
+![](Imagenes/Configuración%20putty.png)
 
 ### 8 centos7 vs debian9
                  DEBIAN 9                                                                                 CENTOS 7  
