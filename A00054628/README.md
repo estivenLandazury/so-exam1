@@ -6,19 +6,18 @@
 **URL repositorio:** https://github.com/ICESI-Training/so-exam1.git  
 
 ### 3 Validación de la imagen  
--Primero descargamos la imagen debian 9 de https://www.debian.org/distrib/netinst#smallcd seleccionamos amd64.  
+-Primero descargamos la imágen debian 9 de https://www.debian.org/distrib/netinst#smallcd seleccionamos amd64.  
 -Luego de http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/MD5SUMS consultamos el valor del checksum del ISO de debian 9.  
 -Despúes descargamos un software que nos permite comprobar que el checksum del ISO sea igual al consultado en la url anterior, esta herramienta se descargó de http://download.cnet.com/MD5-SHA-Checksum-Utility/3001-2092_4-10911445.html.  
--Efectivamente se pudo comprobrar que los checksum son iguales, esto se muestra en la siguiente imagen:
+-Efectivamente se pudo comprobrar que los checksum son iguales, esto se muestra en la siguiente imágen:
                                               ![](Imagenes/ChecksumVerificacion.png)
 
 ### 4 Instalación  
--Primero abrimos virtualbox, luego de esto damos nueva para cear una nueva máquina, le damos un nombre (en mi caso es Debian9),
+-Primero abrimos virtualbox, luego de esto damos nueva para cear una nueva máquina virtual, le damos un nombre (en mi caso es Debian9),
 seleccionamos el tipo (Linux) y la versión de la máquina virtual (Debian 64 bits).  
--Luego se configuran los recursos necesarios para la máquina (memoria base: 2048MB, Disco duro: 8GB).  
--Luego nos vamos a configuración, en almacenamiento montamos la imagen, y en la parte de red habilitamos 2 adaptadores (el nat
-y el adaptador puente).  
--Luego le damos iniciar, una vez hecho esto la máquina se reiniciará y ejecutará la imagen de debian9, despúes se mostrará una ventana donde nos muestra la opción de instalar el sistema operativo, seleccionamos la opción que dice graphical install, seleccionamos el idioma, el idioma del teclado, luego creamos un superusuario, le damos un nombre de usuario y una contraseña, a partír de ahí se da continuar para la instalación, en medio de la instalación salió una opción que decía si se quería hacer el particionado, se debía seleccionar automatico y dar click en continuar.  
+-Luego se configuran los recursos necesarios para la máquina (memoria base: 2048MB, Disco duro: 8GB, procesadores, etc).  
+-Luego nos vamos a configuración, vamos a la opción almacenamiento y montamos la imagen de debian, y en la parte de red habilitamos 2 adaptadores (el nat y el adaptador puente).  
+-Luego le damos iniciar, una vez hecho esto la máquina se reiniciará y ejecutará la imágen de debian9, despúes se mostrará una ventana donde nos muestra la opción de instalar el sistema operativo, seleccionamos la opción que dice graphical install o install (de acuerdo a lo que desee el usuario), seleccionamos el idioma, el idioma del teclado, luego creamos un superusuario, le damos un nombre de usuario y una contraseña, a partír de ahí se da continuar para la instalación, en medio de la instalación salió una opción que decía si se quería hacer el particionado, se debía seleccionar automatico y dar click en continuar.  
 -Luego salió otra opción que decía: ¿desea inicializar con otro cd? En este caso se dio click en no, y una última opción que salío fue lo del gestor de paquetes y seleccionamos colombia-debian.uniminuto.edu.  
 -Despues se dio click en continuar y esperamos hasta que la instalación terminara.  
 -Una vez finalizó la instalación, se reinició la máquina virtual y el sistema operativo debian estaba listo para usarse.  
@@ -27,8 +26,8 @@ y el adaptador puente).
                                    ![](Imagenes/Información_Máquina.png)  
 
 ### 5 Configuración putty
-Para poder conectarse con la máquina por medio de putty, primero la máquina virtual debe tener conexión a internet (este paso se ha hecho previamente al momento de instalar la máquina virtual, en la configuración de la máquina virtual se ha habilitado un adaptador puente, en mi caso le dí la opción de que permitiera crear conexiónes de red de área local inalámbrica) luego de esto abrimos putty, le damos la ip de la máquina, seleccionamos ssh, en puerto ponemos el 22 y finalmente damos aceptar e iniciamos la conexión, si la conexión no se pudo hacer, se debe ejecutar el siguiente comando en la máquina virtual para corregir este error:
-```apt-get install openssh-server```  
+Para poder conectarse con la máquina por medio de putty, primero la máquina virtual debe tener conexión a internet (este paso se ha hecho previamente al momento de instalar la máquina virtual, en la configuración de la máquina virtual se ha habilitado un adaptador puente, en mi caso le dí la opción de que permitiera crear conexiónes de red de área local inalámbrica) luego de esto abrimos putty, le damos la ip que nos muestra la máquina mediante el comando ```~ip a```, seleccionamos ssh, en puerto ponemos el 22 y finalmente damos aceptar e iniciamos la conexión, si la conexión no se pudo hacer, se debe ejecutar el siguiente comando en la máquina virtual para corregir este error:
+```~apt-get install openssh-server```  
 
 Una vez hecho esto se puede dar paso a la conexión sin problemas:  
 ![](Imagenes/Configuración%20putty.png)  
@@ -41,7 +40,7 @@ Primero nos cambiamos al usuario root, despúes ejecutamos los siguientes comand
 Historial de los commits realizados (comando usado ```~tig```):  
 ![](Imagenes/tig%20commits.png)  
 
-Para la instalación del git, en mi caso ocurrió que cuando ejecuté el comando ```apt-get install git``` me decía que no había nada para instalar:  
+Para la instalación del git, en mi caso ocurrió que cuando ejecuté el comando ```~apt-get install git``` me decía que no había nada para instalar:  
 ![](Imagenes/Instalación%20git.png)  
 
 ### 7 Exportación e importación de la máquina virtual  
