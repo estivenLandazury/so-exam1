@@ -1,0 +1,196 @@
+    1  ls
+    2  cd /tmp
+    3  ls
+    4  exit
+    5  ls
+    6  ip a
+    7  su root
+    8  poweroff
+    9  powwerof
+   10  power off
+   11  power of
+   12  powerof
+   13  poweroff
+   14  exit
+   15  ip -a
+   16  ip a
+   17  clear
+   18  ip a
+   19  ip config
+   20  ip a
+   21  ifconfig
+   22  ip -a
+   23  sudo yum install git -y
+   24  clear
+   25  su root
+   26  git clone https://github.com/estivenLandazury/so-exam1.git
+   27  ls
+   28  cd so-exam1/
+   29  ls
+   30  cat README.md 
+   31  cd ..
+   32  MKdir A00056992 crear carpeta
+   33  mkdir A00056992 Crear Carpeta
+   34  ls
+   35  rm -rf Crear
+   36  ls
+   37  rm -rf Carpeta
+   38  ls
+   39  cd A00056992/
+   40  cd ..
+   41  rm -rf A00056992/
+   42  ls
+   43  cd so-exam1/
+   44  mkdir A00056992
+   45  ls
+   46  cd A00056992/
+   47  git branch
+   48  history > comand_list.txt
+   49  ls
+   50  clear
+   51  git checkout -b LandaExam
+   52  git branch
+   53  cd ..
+   54  ls
+   55  rm -rf so-exam1/
+   56  ls
+   57  git clone https://github.com/estivenLandazury/so-exam1.git
+   58  ls
+   59  cd so-exam1/
+   60  ls
+   61  mkdir A00056992
+   62  ls
+   63  cd ..
+   64  cd so-exam1/
+   65  rm -rf A00056992/
+   66  ls
+   67  cd ..
+   68  ls
+   69  rm rf so-exam1/
+   70  rm -rf so-exam1/
+   71  ls
+   72  clear
+   73  git clone https://github.com/estivenLandazury/so-exam1.git
+   74  ls
+   75  git branch
+   76  cd so-exam1/
+   77  git branch
+   78  git checkout -b LandaExam
+   79  git branch -a
+   80  git status
+   81  ls
+   82  mkdir A00056992
+   83  ls
+   84  git status 
+   85  cd A00056992/
+   86  cat>prueba.txt
+   87  ls
+   88  cat prueba.txt 
+   89  ls
+   90  git status
+   91  git add prueba.txt 
+   92  git status
+   93  git pull
+   94  git remote -b
+   95  git emote -v
+   96  git remote -v
+   97  git add --all
+   98  ip a
+   99  reset
+  100  ip a
+  101  ip a 
+  102  ip a
+  103  reset terminal
+  104  ip a
+  105  ifconfig
+  106  opt-get install net-tools
+  107  su root
+  108  ls
+  109  rm rf so-exam1/
+  110  rm -rf so-exam1/
+  111  ls
+  112  git clone https://github.com/estivenLandazury/so-exam1.git
+  113  git remote
+  114  cd so-exam1/
+  115  git remote
+  116  git branch
+  117  git checkout -b LandaExam
+  118  git branch
+  119  mkdir A00056992
+  120  ls
+  121  cd A00056992/
+  122  mkdir Imágenes
+  123  ls
+  124  cd ..
+  125  cd A00056992/
+  126  history > comand_list.txt
+  127  ls
+  128  cd ..
+  129  ls
+  130  vi README.md 
+  131  cd A00056992/
+  132  ls
+  133  cd ..
+  134  apt-get install tig
+  135  cd ..
+  136  su root
+  137  ls
+  138  cd so-exam1/
+  139  ls
+  140  cds A00056992/
+  141  ls
+  142  cd A00056992/
+  143  cat README.md
+  144  ls
+  145  cat>README.md
+  146  ls
+  147  cat README.md 
+  148  ls
+  149  git branch
+  150  ls
+  151  vi README.md 
+  152  ls 
+  153  vi README.md 
+  154  ls
+  155  rm -rf README.md 
+  156  ip a
+  157  clear
+  158  ip a
+  159  if config; exit; 
+  160  ls
+  161  cd so-exam1/
+  162  ls
+  163  cd A00056992/
+  164  ls
+  165  cd ..
+  166  ls
+  167  cp README.md A00056992/
+  168  ls
+  169  cd A00056992/
+  170  ls
+  171  cat README.md 
+  172  exit
+  173  ip a
+  174  git clone
+  175  clear
+  176  gti clone https://github.com/estivenLandazury/so-exam1.git
+  177  ls
+  178  git clone https://github.com/estivenLandazury/so-exam1.git
+  179  ls
+  180  cd so-exam1/
+  181  ls
+  182  git branch
+  183  git branch -a
+  184  git checkout -b landa_Exam
+  185  git branch
+  186  mkdir A00056992
+  187  ls
+  188  cd A00056992/
+  189  ls
+  190  mkdir Imágenes
+  191  ls
+  192  cat>README.md
+  193  ls
+  194  cd ..
+  195  ls
+  196  history > comand_list.txt
