@@ -30,7 +30,7 @@ Aquí podemos observar el comando utilizado para la instalación de git
 Aqui podemos observar el comando utilizado para la instalación de tig  
 ![](Imágenes/InstalaciónTig.JPG)  
 Aquí se evidencian los commits realizados utilizando tig  
-![](Imágenes/tigs-commits.JPG)  
+![](Imágenes/tigs-commits1.JPG)  
 
 ### Debian vs Centos7                                                  
 **por qué debian?**  
