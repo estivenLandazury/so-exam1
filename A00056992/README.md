@@ -9,4 +9,4 @@
 Primero descargamos la imágen ISO de devian 9 para posteriormente buscar el número del checksum.  
 Una vez tuvimos el número del checksum lo veriicamos con la herramienta MD5SUMS para garantizar que la descarga de la ISO fue correcta.  
 Esto se puede evidenciar en la siguiente imagen.    
-! [] (Imágenes/VerifyChecksum debia9.4.png)  
+![](Imágenes/VerifyChecksum debia9.4.PNG)  
