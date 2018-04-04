@@ -12,15 +12,21 @@ Una vez tuvimos el número del checksum lo veriicamos con la herramienta MD5SUMS
 Esto se puede evidenciar en la siguiente imagen.    
 ![](Imágenes/VerifyChecksum.PNG)  
 
-### Instalación Devian 9  
+### Instalación Debian 9  
 Primero descargamos la imagen ISO de debian, proseguimos a subirla a la máquina de virtual box, y realizamos una serie de configuraciones.  Asignamos memoria, procesador y configuraciones de red. Posteriormente procedimos a iniciar la máquina para el proceso de la instalación.  Selecionamos idioma, particionamos la cantidad de disco duro que asignamos anteriormente a la máquina virtual,obteniendo de esta forma dos particiones, una especificamente para el almacenamiento y sistema operativo y la otra como punto de remonte en caso que se desea recuperar el sistema si llegase a fallar. Seguidamente seleccinamos devian como tipo servidor y también elegimos la interfaz gráfica con la que se desea interactua.Al finalizar esta operación se epieza a instalar paquetes necesarios para el funcionamiento del sistema y finalmente acabamos con la instalación. Podemos observar las caracterisitcas del sistema en la siguiente imagen:  
 ![](Imágenes/InformaciónMaquina.JPG)  
 
 ### Configuración InterfazPutyy  
 Acontinuacón se adjuntan una imágenes donde se evidencian la configuración de la interfaz de la aplicación putty y también el funcionamiento en la máquina virtual:  
+
+En el primer caso se puede observar en la maquina virtual configurando las interfaces de red, en red 1 selecciono NAT  
+![](Imágenes/Red1.JPG)  
+
+Seguidamente configuramos el adaptador 3 y seleccionamos la opción adapatador puente y seguidamente la  tarjeta de red correspondiente, esto para permitirle a nuestra máquina virtual acceder a internet.  
+![](Imágenes/Red2.JPG)  
+En la imagen acontinuación se puede observar cómo configuramos el putty, indicamos la ip de nuestra máquina y el puerto por defecto es el 22  
 ![](Imágenes/ConfiguraciónPutty.PNG)  
-
-
+Ahora la máquina ya se puede utilizar por medio de putty, como se observa acontinuación  
 ![](Imágenes/AccesoAlaMaquinaPutty.JPG) 
 
 ### Instalación git y tig  
@@ -30,7 +36,28 @@ Aquí podemos observar el comando utilizado para la instalación de git
 Aqui podemos observar el comando utilizado para la instalación de tig  
 ![](Imágenes/InstalaciónTig.JPG)  
 Aquí se evidencian los commits realizados utilizando tig  
-![](Imágenes/tigs-commits1.JPG)  
+![](Imágenes/tigs-commits1.JPG)   
+
+### Exportarción máquina virtual 
+Primero se debe tener la máquina virtual apagada, seguidamente damos la opción archivo-importar servicios virtualizados y damos clic. Acontinuación la imagen muestra el proceso  
+![](Imágenes/exportarP0.JPG)  
+
+Una vez demos clic en exportar servicios virtualizados, selelccionamos la máquina virtual a exportar y damos siguiente. Como se ve acontinuación  
+![](Imágenes/exportarP1.JPG)  
+
+Automaticamente la máquina empieza el proceso de exportación.  
+![](Imágenes/exportarP2.JPG)  
+
+## Importación Máquina virtual  
+Una vez se halla exportado la máquina virtual se procede a importarla en una de las salas de la universidad, se selecciona la opción archivo-importar servicios virtualizados y seguidamente se selecciona la máquina a exportar.  
+![](Imágenes/import1.png)  
+
+Seguidamente damos clic en la opción next y luego importar. Automaticamente inicia el proceso de la importación de la máquina  
+![](Imágenes/import3.png)  
+
+Alfinalizar los procesos anteriores, la máquina está lista para utilizar nuevamente  
+![](Imágenes/import4.png)  
+
 
 ### Debian vs Centos7                                                  
 **por qué debian?**  
