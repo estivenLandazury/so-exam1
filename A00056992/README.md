@@ -36,7 +36,7 @@ Aquí podemos observar el comando utilizado para la instalación de git
 Aqui podemos observar el comando utilizado para la instalación de tig  
 ![](Imágenes/InstalaciónTig.JPG)  
 Aquí se evidencian los commits realizados utilizando tig  
-![](Imágenes/tigs-commits1.JPG)   
+![](Imágenes/tigs-commits.JPG)   
 
 ### Exportarción máquina virtual 
 Primero se debe tener la máquina virtual apagada, seguidamente damos la opción archivo-importar servicios virtualizados y damos clic. Acontinuación la imagen muestra el proceso  
